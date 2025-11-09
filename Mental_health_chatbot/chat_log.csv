@@ -1,0 +1,21 @@
+timestamp,session_id,query,response,crisis_flag
+2025-11-05T13:53:38.001264,new01,i am feeling overwhelmed with exams,"LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T14:01:18.104746,new01,I feel overwhelmed with exams,"LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T14:09:28.104429,new02,I am overwhelmed at the exams,"LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T14:11:43.585824,string,string,"LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T14:18:10.542935,string,string,"LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T15:44:10.940933,test-session,hello,"LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T15:58:23.109088,test123,"Hello, can you help me manage stress?","LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T15:58:50.215298,test123,"Hello, can you help me manage stress?","LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T16:02:25.480577,test123,"Hello, can you help me manage stress?","LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False
+2025-11-05T16:02:57.964652,test123,"Hello, can you help me manage stress?","LLM not available: please install dependencies (pip install -r requirements.txt) and set OPENAI_API_KEY in your environment.
+For local testing you can also provide a mock response here.",False

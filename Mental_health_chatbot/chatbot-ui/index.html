@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="MindEase - AI-powered mental health support chatbot">
+    <title>MindEase - Your Mental Health Companion</title>
+    <!-- Prevent favicon.ico 404 -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+  <nav>
+    <div>MindEase</div>
+    <ul>
+      <li>Home</li>
+      <li>Resources</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>  
+  </nav>  
+
+  <!-- Center Content-->
+  <div class="chat-container">
+    <h2>Your Mental Health Companion</h2>
+    <p>
+      MindEase is here to support your emotional well-being. Whether you're feeling overwhelmed, anxious, or just need someone to talk to, our AI-powered chatbot is ready to listen and provide guidance.
+    </p>
+    <div class="image-content">
+      <!-- Images can be added here -->
+    </div>
+  </div>
+  
+  <!-- Chat Widget -->
+  <div class="chat-icon" onclick="toggleChat()">💬</div>
+
+  <div class="chat-widget" id="chatWidget" style="display: flex;">
+    <div class="chat-header">
+      MindEase Chatbot
+      <span style="cursor: pointer;" onclick="toggleChat()">✕</span>
+    </div>
+    <div class="chat-body" id="chatBox">
+      <!-- Welcome message -->
+      <div class="bot-message" style="margin: 8px 0; padding: 8px 12px; border-radius: 8px; background-color: #f0f4f8;">
+        <strong>Bot:</strong> Hello! I'm here to help support your mental well-being. How can I assist you today?
+      </div>
+    </div>
+    <div class="chat-input">
+      <input 
+        type="text" 
+        id="userInput" 
+        placeholder="Type your message..." 
+        onkeypress="if(event.key === 'Enter') sendMessage()"
+      />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  
+  <!-- Debug Info (hidden by default) -->
+  <div id="debugInfo" style="display: none; position: fixed; bottom: 10px; left: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; border-radius: 5px;"></div>
+  
+  <!-- Chat Script -->
+  <script src="chatbot.js"></script>
+</body>
+</html> 
